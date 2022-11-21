@@ -28,4 +28,10 @@ public class Rectangle
     {
         return "Rectangle with width: " + width + " and height: " + height;
     }
+    
+    public void pog()
+    {
+        System.out.println ("Pog");
+    }
+    
 }
