@@ -34,4 +34,24 @@ public class Rectangle
         System.out.println ("Pog");
     }
     
+    public class PointTester extends ConsoleProgram
+{
+    public void run()
+    {
+        Point p = new Point(10, 5);
+        System.out.println(p);
+        p.move(3, 4);
+        
+        System.out.println(p);
+        
+        // Make a new point here at position (2, 4)
+        Point a = new Point (4, 6);
+        // Then print it out
+        a.move(2, 4);
+        System.out.println(a);
+    }
+}
+    
+    
+    
 }
